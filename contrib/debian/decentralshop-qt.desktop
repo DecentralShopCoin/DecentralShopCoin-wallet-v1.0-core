@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=DecentralShop
+Comment=DecentralShop P2P Cryptocurrency
+Comment[fr]=DecentralShop, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=DecentralShop, eşten eşe kriptografik sanal para birimi
+Exec=decentralshop-qt %u
+Terminal=false
+Type=Application
+Icon=decentralshop128
+MimeType=x-scheme-handler/decentralshop;
+Categories=Office;Finance;

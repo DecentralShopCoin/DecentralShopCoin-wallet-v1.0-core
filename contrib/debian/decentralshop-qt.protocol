@@ -1,0 +1,11 @@
+[Protocol]
+exec=decentralshop-qt '%u'
+protocol=decentralshop
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

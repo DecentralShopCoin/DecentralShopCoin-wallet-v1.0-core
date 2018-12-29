@@ -1,0 +1,26 @@
+# /etc/conf.d/decentralshopd: config file for /etc/init.d/decentralshopd
+
+# Config file location
+#BITCOIND_CONFIGFILE="/etc/decentralshop/decentralshop.conf"
+
+# What directory to write pidfile to?  (created and owned by $BITCOIND_USER)
+#BITCOIND_PIDDIR="/var/run/decentralshopd"
+
+# What filename to give the pidfile
+#BITCOIND_PIDFILE="${BITCOIND_PIDDIR}/decentralshopd.pid"
+
+# Where to write decentralshopd data (be mindful that the blockchain is large)
+#BITCOIND_DATADIR="/var/lib/decentralshopd"
+
+# User and group to own decentralshopd process
+#BITCOIND_USER="decentralshop"
+#BITCOIND_GROUP="decentralshop"
+
+# Path to decentralshopd executable
+#BITCOIND_BIN="/usr/bin/decentralshopd"
+
+# Nice value to run decentralshopd under
+#BITCOIND_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+BITCOIND_OPTS=""
